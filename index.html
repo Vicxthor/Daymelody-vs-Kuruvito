@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daymelody vs Kuruvito</title>
+    <style>
+        body {
+            background-image: url('bg1.png');
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .mainContainer {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .sideContainer {
+            flex-basis: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .sideContainer img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        #gameContainer {
+            flex-basis: 60%;
+            display: flex;
+            justify-content: center;
+            background-color: black; /* Fondo negro */
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        #gameCanvas {
+            border: 2px solid pink;
+            width: 100%; /* Ajusta el canvas al 100% del contenedor */
+            max-width: 600px; /* Máximo ancho del canvas */
+            height: auto; /* Mantiene la proporción de altura */
+        }
+
+        .messageContainer {
+            flex-basis: 20%;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .messageContainer img {
+            margin-top: 10px;
+            width: 80%;
+            max-width: 200px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="mainContainer">
+        <div class="sideContainer">
+            <img src="myDV.jpg" alt="myDV">
+        </div>
+        <div id="gameContainer">
+            <canvas id="gameCanvas" width="600" height="800"></canvas>
+        </div>
+        <div class="messageContainer">
+            <h2>A mi flaquita linda y enojona, ya un mesesito <3</h2>
+            <p>Te quiero muchooo mi flaquita dueña de mi corazón!!!. Estoy muy feliz de estar contigo y de compartir este pequeño tiempo juntos. ¡Espero verte pronto mi chula!</p>
+            <img src="us.png" alt="Nosotros">
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
