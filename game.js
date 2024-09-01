@@ -37,13 +37,8 @@ const bonusWidth = 80;
 const bonusHeight = 80;
 
 const loseMessages = [
-    "que manca eres mi amor",
-    "así de mala me gustas",
-    "apúntele bien mi amor",
-    "Te quiero mucho Mia",
-    "ayy Mia miita de mi <3",
-    "Mejor anda a cosinar (con amor)",
-    "waosss te quiero"
+    "Wow!! sigue asi!!",
+    "Gitgud bro"
 ];
 
 document.addEventListener("keydown", keyDownHandler);
